@@ -1,0 +1,2 @@
+# sortindexvcf
+sort index VCFs
