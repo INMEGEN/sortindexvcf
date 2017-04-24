@@ -1,4 +1,4 @@
-SORTINDEXVCF = `{./targets}
+SORTINDEXVCF = `{./bin/targets}
 
 sortindexvcf:VE:	$SORTINDEXVCF
 

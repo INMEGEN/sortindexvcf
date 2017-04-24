@@ -1,9 +1,0 @@
-#!/bin/bash 
-
-find -L data/ \
-	-name '*.vcf.gz' \
-	-o -name '*.vcf' \
-| sed \
-	-e 's#data/#results/sortindexvcf/#' \
-	-e 's#\.vcf$#.vcf.gz#' \
-	-e 's#\.vcf\.gz$#.sorted.vcf.gz.tbi#'
